@@ -15,6 +15,7 @@
 		651F7FE11ED14E940045CC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651F7FDF1ED14E940045CC7B /* LaunchScreen.storyboard */; };
 		651F7FEC1ED14E940045CC7B /* Squared_Up_feiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7FEB1ED14E940045CC7B /* Squared_Up_feiTests.m */; };
 		651F7FF71ED14E940045CC7B /* Squared_Up_feiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651F7FF61ED14E940045CC7B /* Squared_Up_feiUITests.m */; };
+		CB7F047E20E3780D0027C30F /* SquareUpFBC.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7F047D20E3780D0027C30F /* SquareUpFBC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		651F7FF21ED14E940045CC7B /* Squared_Up_feiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Squared_Up_feiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651F7FF61ED14E940045CC7B /* Squared_Up_feiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Squared_Up_feiUITests.m; sourceTree = "<group>"; };
 		651F7FF81ED14E940045CC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB7F047C20E3780D0027C30F /* SquareUpFBC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareUpFBC.h; sourceTree = "<group>"; };
+		CB7F047D20E3780D0027C30F /* SquareUpFBC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareUpFBC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		651F7FD01ED14E940045CC7B /* Squared_Up_fei */ = {
 			isa = PBXGroup;
 			children = (
+				CB7F047C20E3780D0027C30F /* SquareUpFBC.h */,
+				CB7F047D20E3780D0027C30F /* SquareUpFBC.m */,
 				651F7FD41ED14E940045CC7B /* AppDelegate.h */,
 				651F7FD51ED14E940045CC7B /* AppDelegate.m */,
 				651F7FD71ED14E940045CC7B /* ViewController.h */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				651F7FD91ED14E940045CC7B /* ViewController.m in Sources */,
+				CB7F047E20E3780D0027C30F /* SquareUpFBC.m in Sources */,
 				651F7FD61ED14E940045CC7B /* AppDelegate.m in Sources */,
 				651F7FD31ED14E940045CC7B /* main.m in Sources */,
 			);
@@ -516,6 +522,7 @@
 				651F7FFD1ED14E940045CC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651F7FFE1ED14E940045CC7B /* Build configuration list for PBXNativeTarget "Squared_Up_feiTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				651F80001ED14E940045CC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651F80011ED14E940045CC7B /* Build configuration list for PBXNativeTarget "Squared_Up_feiUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				651F80031ED14E940045CC7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
