@@ -79,7 +79,7 @@
 //------------- 方式 2----------------
 
 //水平方向平均间隔，包括距离左侧、右侧、格子之间的距离都是一样的。不可定义格子的宽（自动调节宽），可自由定义距离最上面的距离
--(instancetype)initWithBaseFrame:(CGRect)frame andNum_of_squareness:(int)num_of_squareness andNum_of_squareness_horizontal:(int)num_of_squareness_horizontal andSquareness_width:(double)squareness_width andSquareness_height:(double)squareness_height andSquareness_padding_to_top:(double)squareness_padding_to_top andSquareness_avage_distence_horizental:(double)squareness_avage_distence_horizental andSquareness_avage_distence_vertical:(double)squareness_avage_distence_vertical{
+-(instancetype)initWithBaseFrame2:(CGRect)frame andNum_of_squareness:(int)num_of_squareness andNum_of_squareness_horizontal:(int)num_of_squareness_horizontal andSquareness_height:(double)squareness_height andSquareness_padding_to_top:(double)squareness_padding_to_top andSquareness_avage_distence_horizental:(double)squareness_avage_distence_horizental andSquareness_avage_distence_vertical:(double)squareness_avage_distence_vertical{
     
     self = [super initWithFrame:frame];
     

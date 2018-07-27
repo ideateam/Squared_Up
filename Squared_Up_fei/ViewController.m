@@ -22,9 +22,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self createSquare];
+    //[self createSquare];
     
-    //[self createSquare2];
+    [self createSquare2];
     
 }
 -(void)createSquare{
@@ -37,7 +37,7 @@
 }
 -(void)createSquare2{
     
-    SquareUpFBC *square2 = [[SquareUpFBC alloc] initWithBaseFrame:CGRectMake(0, 100, screen_width, 300) andNum_of_squareness:24 andNum_of_squareness_horizontal:5 andSquareness_width:30 andSquareness_height:80 andSquareness_padding_to_top:20 andSquareness_avage_distence_horizental:30 andSquareness_avage_distence_vertical:20];
+    SquareUpFBC *square2 = [[SquareUpFBC alloc] initWithBaseFrame2:CGRectMake(0, 100, screen_width, 300) andNum_of_squareness:24 andNum_of_squareness_horizontal:5 andSquareness_height:80 andSquareness_padding_to_top:20 andSquareness_avage_distence_horizental:30 andSquareness_avage_distence_vertical:20];
     square2.delegate = self;
     square2.backgroundColor = [UIColor orangeColor];
     
