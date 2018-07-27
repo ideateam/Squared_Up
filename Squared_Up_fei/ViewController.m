@@ -45,7 +45,7 @@
 }
 -(void)whichViewIsTap:(UITapGestureRecognizer *)tapGestureRecognizer{
     
-    NSLog(@"whichViewIsTap %ld,第%ld个", tapGestureRecognizer.view.tag,tapGestureRecognizer.view.tag - 10000);
+    NSLog(@"whichViewIsTap %d,第%d个", (int)tapGestureRecognizer.view.tag,(int)tapGestureRecognizer.view.tag - 10000);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

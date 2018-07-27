@@ -14,22 +14,26 @@
 
 @interface SquareUpFBC : UIView
 
-@property (nonatomic,assign) CGRect baseframe;//容器的布局
-@property (nonatomic,assign) int num_of_squareness;//九宫格的矩形数量，多少个
-@property (nonatomic,assign) int num_of_squareness_horizontal; //每一行数量
-@property (nonatomic,assign) double squareness_width;//矩形宽
-@property (nonatomic,assign) double squareness_height;//矩形高
-@property (nonatomic,assign) double squareness_padding_to_top;//矩形距离上方的距离
-@property (nonatomic,assign) double squareness_padding_to_left;//矩形距离最左侧的距离
-@property (nonatomic,assign) double squareness_padding_to_right;//矩形距离右侧的距离
-@property (nonatomic,assign) double squareness_avage_distence_horizental;//水平方向每一个的平均距离
-@property (nonatomic,assign) double squareness_avage_distence_vertical;//垂直方向的每一个的平均距离
-@property (nonatomic,strong) UIView *squareness_view;//矩形视图,每一个格子
+@property(nonatomic,assign)CGRect baseframe;//容器的布局
+@property(nonatomic,assign)int num_of_squareness;//九宫格的矩形数量，多少个
+@property(nonatomic,assign)int num_of_squareness_horizontal; //每一行数量
+@property(nonatomic,assign)double squareness_width;//矩形宽
+@property(nonatomic,assign)double squareness_height;//矩形高
+@property(nonatomic,assign)double squareness_padding_to_top;//矩形距离上方的距离
+@property(nonatomic,assign)double squareness_padding_to_left;//矩形距离最左侧的距离
+@property(nonatomic,assign)double squareness_padding_to_right;//矩形距离右侧的距离
+@property(nonatomic,assign)double squareness_avage_distence_horizental;//水平方向每一个的平均距离
+@property(nonatomic,assign)double squareness_avage_distence_vertical;//垂直方向的每一个的平均距离
+@property(nonatomic,strong)UIView *squareness_view;//矩形视图,每一个格子
+
+//----------- 在squareness_view矩形视图,每一个格子里添加图片、文字等,根据需求
+@property(nonatomic,strong)UIImageView *headImageView;
+@property(nonatomic,strong)UILabel *titleLable;
+//-----------
 
 //统计各自的数量
-@property (nonatomic,assign) int k_num;
-
-@property (nonatomic,strong) id <SquareUpFBCdelegate> delegate;
+@property(nonatomic,assign) int k_num;
+@property(nonatomic,strong) id <SquareUpFBCdelegate> delegate;
 
 
 /*
